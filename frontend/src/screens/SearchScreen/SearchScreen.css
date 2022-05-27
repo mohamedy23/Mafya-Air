@@ -1,0 +1,125 @@
+.reservationContainer {
+  position: inherit;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #3c5977;
+}
+.searchbutton {
+  height: 55px;
+  width: 200px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  border-radius: 0;
+  color: white;
+  background: rgba(60, 89, 119, 0.8);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+  margin-left: 38%;
+}
+.searchbutton:hover {
+  background: gray;
+  text-justify: center;
+  color: white;
+  letter-spacing: 4px;
+}
+.progress {
+  background-color: transparent;
+  width: 600px;
+  height: 100px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+.progressButton {
+  background-color: #3c5977;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  z-index: 4;
+}
+.progressButton1 {
+  background-color: white;
+  font-size: 10px;
+  color: #3c5977;
+  position: absolute;
+  margin-left: 170px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  z-index: 4;
+}
+.progressButton2 {
+  background-color: white;
+  font-size: 10px;
+  color: #3c5977;
+  position: absolute;
+  margin-left: 330px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  z-index: 4;
+}
+.progressButton3 {
+  background-color: white;
+  font-size: 10px;
+  color: #3c5977;
+  position: absolute;
+  margin-left: 500px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  z-index: 4;
+}
+.progressbar1 {
+  background-color: white;
+  margin-left: 50px;
+  width: 120px;
+  height: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+}
+.progressbar2 {
+  background-color: white;
+  margin-left: 210px;
+  position: absolute;
+  width: 120px;
+  height: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+}
+.progressbar3 {
+  background-color: white;
+  margin-left: 380px;
+  position: absolute;
+  width: 120px;
+  height: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+}

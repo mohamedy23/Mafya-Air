@@ -1,0 +1,22 @@
+.searchFlights {
+  height: 55px;
+  width: 200px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  border-radius: 0;
+  color: white;
+  background: rgba(60, 89, 119, 0.8);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+  margin-left: 33%;
+}
+.searchFlights:hover {
+  background: gray;
+  text-justify: center;
+  color: white;
+  letter-spacing: 4px;
+}

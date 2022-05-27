@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+.registerContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: initial;
+  align-items: center;
+  margin-top: 80px;
+  padding-top: 10px;
+  width: 500px;
+}
+.textfield__label {
+  color: #22303c !important;
+  font-weight: 700 !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+.textfield__input {
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  font-weight: 500 !important;
+  letter-spacing: 1px !important;
+  font-family: "Comfortaa", cursive !important;
+}
+
+.registerbutton {
+  height: 55px;
+  width: 200px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  border-radius: 0;
+  color: white;
+  background: rgba(60, 89, 119, 0.8);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+  margin-left: 125px;
+}
+.registerbutton:hover {
+  background-color: white;
+  text-justify: center;
+  color: #3c5977;
+  letter-spacing: 4px;
+}

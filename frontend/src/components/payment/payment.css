@@ -1,0 +1,93 @@
+.progresssss {
+    background-color: transparent;
+    width: 600px;
+    height: 100px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+  }
+  .progressButtonnnn {
+    background-color: #22303c;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    z-index: 4;
+  }
+  .progressButtonnnn1 {
+    background-color: #22303c;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    margin-left: 170px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    z-index: 4;
+  }
+  .progressButtonnnn2 {
+    background-color: #22303c;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    margin-left: 330px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    z-index: 4;
+  }
+  .progressButtonnnn3 {
+    background-color: #3c5977;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    margin-left: 500px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    z-index: 4;
+  }
+  .progressbarrrr1 {
+    background-color: #22303c;
+    margin-left: 50px;
+    width: 120px;
+    height: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+  }
+  .progressbarrrr2 {
+    background-color: #22303c;
+    margin-left: 210px;
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+  }
+  .progressbarrrr3 {
+    background-color: #22303c;
+    margin-left: 380px;
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+  }

@@ -1,0 +1,14 @@
+.FlightCell {
+  font-family: "Comfortaa", cursive !important;
+  font-weight: 550 !important ;
+  border-radius: 0 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.FlightSubCell {
+  font-family: "Comfortaa", cursive !important;
+  font-weight: 550 !important ;
+  border-radius: 0 !important;
+  color: black !important;
+}

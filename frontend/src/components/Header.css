@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+.navbar-custom {
+  background-color: #3c5977;
+  border: 0;
+}
+/* Modify brand and text color */
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text .navbar-link {
+  color: white !important;
+  font-family: "Comfortaa", cursive !important;
+}
+.navbar-brand:hover {
+  color: #22303c !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+.nav-link:hover {
+  color: #22303c !important;
+}

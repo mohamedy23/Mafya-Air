@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.inquiryMain {
+  min-height: 93vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../Background5.png");
+  background-color: rgba(34, 48, 60, 0.8);
+}
+/* .searchContainer {
+  position: inherit;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #3c5977;
+} */
+.searchSubContainer {
+  background-color: white;
+  padding: 20px !important;
+}
+.inquirybutton {
+  height: 55px;
+  width: 200px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  border-radius: 0;
+  color: white;
+  background: rgba(60, 89, 119, 0.8);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+  margin-left: 39%;
+}
+.inquirybutton:hover {
+  background: gray;
+  text-justify: center;
+  color: white;
+  letter-spacing: 4px;
+}
+
+.textfield_label {
+  color: #3c5977 !important;
+  font-weight: 700 !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+.textfield_input {
+  color: black !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  letter-spacing: 1px !important;
+  font-family: "Comfortaa", cursive !important;
+}
+
+.textfield_inputDate {
+  color: white !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  letter-spacing: 1px !important;
+  font-family: "Comfortaa", cursive !important;
+}

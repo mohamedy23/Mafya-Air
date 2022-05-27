@@ -1,0 +1,151 @@
+.flightsContainer {
+  min-height: 93vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../Background5.png");
+  background-color: rgba(34, 48, 60, 0.8);
+}
+.flightSubContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 100px;
+}
+.ClientLabel {
+  font-size: large;
+  font-weight: bold;
+  font-family: "Comfortaa", cursive;
+  position: relative;
+  color: white;
+  margin-top: 100px;
+}
+.editButton {
+  color: #3c5977;
+  background-color: transparent;
+  border: none;
+}
+.editButton:hover {
+  background-color: #3c5977;
+}
+.Bookbutton {
+  position: fixed;
+  height: 55px;
+  width: 200px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  border-radius: 0;
+  color: white;
+  background: rgba(60, 89, 119, 0.8);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+  margin-top: 20px;
+  margin-left: 43.4%;
+}
+.Bookbutton:hover {
+  background: white;
+  text-justify: center;
+  color: #3c5977;
+  letter-spacing: 4px;
+}
+.progresss {
+  background-color: transparent;
+  width: 600px;
+  height: 100px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+.progressButtonn {
+  background-color: #22303c;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  z-index: 4;
+}
+.progressButtonn1 {
+  background-color: #3c5977;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  margin-left: 170px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  z-index: 4;
+}
+.progressButtonn2 {
+  background-color: white;
+  font-size: 10px;
+  color: #3c5977;
+  position: absolute;
+  margin-left: 330px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  z-index: 4;
+}
+.progressButtonn3 {
+  background-color: white;
+  font-size: 10px;
+  color: #3c5977;
+  position: absolute;
+  margin-left: 500px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  z-index: 4;
+}
+.progressbarr1 {
+  background-color: #22303c;
+  margin-left: 50px;
+  width: 120px;
+  height: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+}
+.progressbarr2 {
+  background-color: white;
+  margin-left: 210px;
+  position: absolute;
+  width: 120px;
+  height: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+}
+.progressbarr3 {
+  background-color: white;
+  margin-left: 380px;
+  position: absolute;
+  width: 120px;
+  height: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+}
+

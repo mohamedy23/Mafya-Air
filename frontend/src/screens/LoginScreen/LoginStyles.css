@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+.Background {
+  min-height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../Background5.png");
+  background-color: rgba(34, 48, 60, 0.8);
+}
+.loginContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: initial;
+  align-items: center;
+  margin-top: 80px;
+  width: 500px;
+
+  border-radius: 50px;
+}
+.loginbutton {
+  height: 55px;
+  width: 200px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  border-radius: 0;
+  color: white;
+  background: rgba(60, 89, 119, 0.8);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.loginbutton:hover {
+  background-color: white;
+  text-justify: center;
+  color: #3c5977;
+  letter-spacing: 4px;
+}
+.loginContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: normal;
+}
+
+.EmailTextBox {
+  color: white;
+  background-color: yellow;
+  border: none;
+}
+.forgetPassword{
+  font-size: 50x;
+  }
+.forgetPassword:hover{
+color:gray;
+}
